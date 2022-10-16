@@ -1,0 +1,83 @@
+header {
+    position: sticky;
+    padding: 1.1rem;
+}
+
+body {
+    position: relative;
+    font-family: 'Jetbrains-monospace', Courier, monospace;
+    display: block;
+    margin: 0;
+}
+#left-part {
+    /* padding: 1em; */
+    position: relative;
+    background-color: rgb(187, 223, 211);
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#right-part {
+    /* background-color:/ rgb(255, 202, 127); */
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 85vh;
+}
+
+.bottom-left {
+    color: rgb(103, 116, 126);
+    position: absolute;
+    bottom: 5em;
+    left: 27px;
+    font-size: 2.5em;
+    /* background-color: aliceblue; */
+    padding: 1.5em;
+    text-align: left;
+    /* line-height: 1.1em; */
+    
+}
+
+#main-container {
+    position: relative;
+}
+
+#kid-pic{
+    opacity: 0.75;
+    filter: blur(7px);
+    width: 100%; 
+    height: 100%;
+}
+main {
+    /* position: relative; */
+    vertical-align: middle;
+    text-align: center;
+    height: 85vh;
+
+}
+form {
+    
+    background-color: aliceblue;
+    padding: 2em 8em;
+    border-radius: 20px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+label {
+    display: block;
+    padding: 0.5em;
+    font-size: large;
+    
+}
+footer{
+    height: 8vh;
+    /* padding: 100%; */
+    background-color: rgb(219, 217, 207);
+    text-align: center;
+    padding-top: 20px;
+}
