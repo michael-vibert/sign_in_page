@@ -2,8 +2,7 @@ header {
     position: sticky;
     padding: 1.1rem;
 }
-
-body {
+git body {
     position: relative;
     font-family: 'Jetbrains-monospace', Courier, monospace;
     display: block;
